@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Akcja Jajo</title>
+<style>
+body {
+  font-family: Arial;
+  max-width: 600px;
+  margin: 40px auto;
+  line-height: 1.6;
+}
+</style>
+</head>
+<body>
+
+<h2>Hej 🖤</h2>
+
+<p><b>🇵🇱 Polski</b><br>
+(twój tekst)</p>
+
+<p><b>🇬🇧 English</b><br>
+(your text)</p>
+
+<p><b>🇩🇪 Deutsch</b><br>
+(dein Text)</p>
+
+</body>
+</html>
