@@ -5,12 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>#AkcjaJajo</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(135deg, #000000 0%, #1a4d2e 100%);
@@ -20,7 +15,6 @@
             justify-content: center;
             padding: 20px;
         }
-        
         .container {
             background: white;
             border-radius: 12px;
@@ -29,65 +23,17 @@
             width: 100%;
             padding: 40px;
         }
-        
-        .title {
-            text-align: center;
-            font-size: 32px;
-            font-weight: bold;
-            margin-bottom: 40px;
-            color: #2d3436;
-        }
-        
-        .disclaimer {
-            text-align: center;
-            font-size: 14px;
-            color: #999;
-            margin-bottom: 30px;
-            font-style: italic;
-        }
-        
-        .language-section {
-            margin-bottom: 35px;
-            padding-bottom: 35px;
-            border-bottom: 2px solid #f0f0f0;
-        }
-        
-        .language-section:last-child {
-            border-bottom: none;
-            margin-bottom: 0;
-            padding-bottom: 0;
-        }
-        
-        .language-header {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 15px;
-            font-size: 18px;
-            font-weight: 600;
-            color: #2d3436;
-        }
-        
-        .flag {
-            font-size: 24px;
-        }
-        
-        .language-text {
-            font-size: 16px;
-            line-height: 1.8;
-            color: #555;
-            text-align: justify;
-            letter-spacing: 0.3px;
-        }
-
-        .variant {
-            display: none;
-        }
-        
+        .title { text-align: center; font-size: 32px; font-weight: bold; margin-bottom: 40px; color: #2d3436; }
+        .disclaimer { text-align: center; font-size: 14px; color: #999; margin-bottom: 30px; font-style: italic; }
+        .language-section { margin-bottom: 35px; padding-bottom: 35px; border-bottom: 2px solid #f0f0f0; }
+        .language-section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .language-header { display: flex; align-items: center; gap: 8px; margin-bottom: 15px; font-size: 18px; font-weight: 600; color: #2d3436; }
+        .flag { font-size: 24px; }
+        .language-text { font-size: 16px; line-height: 1.8; color: #555; text-align: justify; letter-spacing: 0.3px; }
+        .variant { display: none; }
         @media (max-width: 480px) {
             .container { padding: 25px; }
-            .title { font-size: 24px; margin-bottom: 30px; }
-            .language-text { font-size: 15px; }
+            .title { font-size: 24px; }
         }
     </style>
 </head>
@@ -96,9 +42,7 @@
         <div class="title">#AkcjaJajo</div>
         <div class="disclaimer">Sorry for bad translations! 🙏</div>
 
-
-
-        <!-- SINGLE -->
+        <!-- 1. SINGLE -->
         <div id="v-single" class="variant">
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇵🇱</span><span>Polski</span></div>
@@ -106,75 +50,87 @@
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇬🇧</span><span>English</span></div>
-                <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're a truly beautiful and wonderful person with an amazing style that brings joy just by being seen! People like you make this grey world a little more colorful ^^ It was nice to see you 🖤 Have a great day!</p>
+                <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're a truly beautiful and wonderful person with an amazing style that delights at first sight! People like you make this grey world a little more colorful ^^ It was nice to see you 🖤 Have a great day!</p>
             </div>
             <div class="language-section">
-                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
-                <p class="language-text">Salut ! Ma mission est d’apporter un peu de sourire à des personnes extraordinaires. Si tu as reçu* ce message, je voudrais te dire que tu es une personne vraiment merveilleuse, avec un style incroyable qui apporte de la joie rien qu’en le regardant ! Des personnes comme toi rendent ce monde gris un peu plus coloré ^^ C’était un plaisir de te voir 🖤 Passe une belle journée !</p>
+                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
+                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ти отримав* цю листівку, я хотів би сказати тобі, що ти неймовірно прекрасна і чудова людина з дійсно гарним стилем, який захоплює одним лише виглядом! Такі люди, як ти, роблять цей сірий світ хоч трішки кольоровішим ^^ Було приємно тебе побачити 🖤 Гарного дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇷🇺</span><span>Русский</span></div>
+                <p class="language-text">Привет! Моя миссия — подарить немного улыбки особенным людям. Если ты получил* эту открытку, я хотел бы сказать тебе, что ты невероятно прекрасный и замечательный человек с действительно красивым стилем, который радует одним только видом! Такие люди, как ты, делают этот серый мир хоть немного ярче ^^ Рад был тебя увидеть 🖤 Хорошего дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
+                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn du diese Karte erhalten hast, möchte ich dir sagen, dass du eine wunderschöne, wunderbare Person bist, mit einem tollen Style, der schon beim bloßen Anblick begeistert! Menschen wie du machen diese graue Welt bunter ^^ Es war schön, dich zu sehen 🖤 Hab einen schönen Tag!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇨🇿</span><span>Čeština</span></div>
+                <p class="language-text">Ahoj! Mojí misí je přinést trochu úsměvu výjimečným lidem. Pokud jsi dostal* tuto kartičku, chtěl bych ti říct, že jsi překrásná, úžasná osůbka s opravdu krásným stylem, který těší už na samotný pohled! Lidé jako ty dělají tento šedý svět alespoň o trochu barevnější ^^ Rád jsem tě viděl 🖤 Hezký den!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇸🇰</span><span>Slovenčina</span></div>
+                <p class="language-text">Ahoj! Mojou misiou je priniesť trochu úsmevu výnimočným ľuďom. Ak si dostal* túto kartičku, chcel by som ti povedať, že si prekrásna, úžasná osôbka s naozaj krásnym štýlom, ktorý teší už na samotný pohľad! Ľudia ako ty robia tento sivý svet aspoň o niečo farebnejším ^^ Rád som ťa videl 🖤 Pekný deň!</p>
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇮🇹</span><span>Italiano</span></div>
                 <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se hai ricevuto questo messaggio, voglio dirti che sei una persona davvero meravigliosa, con uno stile fantastico che trasmette gioia già a prima vista! Persone come te rendono questo mondo grigio un po' più colorato ^^ È stato bello vederti 🖤 Buona giornata!</p>
             </div>
             <div class="language-section">
-                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
-                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn du diese Karte erhalten hast, möchte ich dir sagen, dass du eine wirklich wunderbare Person mit einem großartigen Stil bist! Menschen wie du bringen Farbe in diese graue Welt ^^ Es war schön, dich zu sehen 🖤 Hab einen schönen Tag!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
-                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ти отримав* цю листівку, я хочу сказати, що ти справді прекрасна людина з чудовим стилем! Люди, як ти, роблять цей сірий світ яскравішим ^^ Було приємно тебе побачити 🖤 Гарного дня!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇷🇺</span><span>Русский</span></div>
-                <p class="language-text">Привет! Моя миссия — подарить немного улыбки особенным людям. Если ты получил* эту открытку, хочу сказать, что ты действительно замечательный человек с отличным стилем! Такие люди, как ты, делают этот мир ярче ^^ Рад был тебя увидеть 🖤 Хорошего дня!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇨🇿</span><span>Čeština</span></div>
-                <p class="language-text">Ahoj! Mojí misí je přinést trochu úsměvu výjimečným lidem. Pokud jsi dostal* tuto kartičku, chci ti říct, že jsi opravdu skvělá osoba s krásným stylem! Lidé jako ty dělají tento svět barevnější ^^ Rád jsem tě viděl 🖤 Hezký den!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇸🇰</span><span>Slovenčina</span></div>
-                <p class="language-text">Ahoj! Mojou misiou je priniesť trochu úsmevu výnimočným ľuďom. Ak si dostal* túto kartičku, chcem ti povedať, že si naozaj skvelá osoba s krásnym štýlom! Ľudia ako ty robia tento svet farebnejším ^^ Rád som ťa videl 🖤 Pekný deň!</p>
-            </div>
-            <div class="language-section">
                 <div class="language-header"><span class="flag">🇪🇸</span><span>Español</span></div>
-                <p class="language-text">¡Hola! Mi misión es regalar una sonrisa a personas especiales. Si has recibido este mensaje, quiero decirte que eres una persona realmente maravillosa, con un estilo increíble. Personas como tú hacen que este mundo sea más colorido ^^ ¡Fue un gusto verte! 🖤 ¡Que tengas un buen día!</p>
-            </div>
-        </div>
-
-
-
-        <!-- DOUBLE -->
-        <div id="v-double" class="variant">
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇵🇱</span><span>Polski</span></div>
-                <p class="language-text">Hej! Moją misją jest dać odrobinę uśmiechu wyjątkowym ludziom. Jeśli otrzyma**ście tą kartkę, to chciałbym Wam powiedzieć, że jesteście przepięknymi wspaniałymi osobami z naprawdę piękną stylówką, które cieszą na sam widok! Osoby takie jak Wy sprawiają, że ten szary świat choć odrobinę nabiera kolorów ^^ Miło było Was widzieć 🖤 Miłego dnia!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇬🇧</span><span>English</span></div>
-                <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're truly beautiful and wonderful people with an amazing style that brings joy just by being seen! People like you make this grey world a little more colorful ^^ It was nice to see you 🖤 Have a great day!</p>
+                <p class="language-text">¡Hola! Mi misión es dar un poco de sonrisa a personas excepcionales. Si has recibido esta tarjeta, me gustaría decirte que eres una personita hermosa y maravillosa con un estilo realmente bello que alegra la vista nada más verlo. Personas como tú hacen que este mundo gris cobre color ^^ ¡Fue un gusto verte! 🖤 ¡Buen día!</p>
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
-                <p class="language-text">Salut ! Ma mission est d’apporter un peu de sourire à des personnes extraordinaires. Si vous avez reçu ce message, je voudrais vous dire que vous êtes des personnes vraiment merveilleuses, avec un style incroyable ! Des personnes comme vous rendent ce monde gris un peu plus coloré ^^ C’était un plaisir de vous voir 🖤 Bonne journée !</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇮🇹</span><span>Italiano</span></div>
-                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se avete ricevuto questo messaggio, voglio dirvi che siete delle persone davvero meravigliose, con uno stile fantastico! Persone come voi rendono questo mondo grigio un po' più colorato ^^ È stato bello vedervi 🖤 Buona giornata!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
-                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn ihr diese Karte erhalten habt, möchte ich euch sagen, dass ihr wirklich wunderbare Personen mit einem großartigen Stil seid! Menschen wie ihr bringen Farbe in die Welt ^^ Es war schön, euch zu sehen 🖤 Schönen Tag!</p>
-            </div>
-            <div class="language-section">
-                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
-                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ви отримали цю листівку, я хочу сказати, що ви справді прекрасні люди з чудовим стилем! Такі люди, як ви, роблять світ красивіший ^^ Було приємно вас побачити 🖤 Гарного dnia!</p>
+                <p class="language-text">Salut ! Ma mission est d'apporter un peu de sourire à des personnes exceptionnelles. Si tu as reçu cette carte, j'aimerais te dire que tu es une personne magnifique et merveilleuse avec un style vraiment beau qui ravit au premier regard ! Les gens comme toi rendent ce monde gris plus coloré ^^ C'était un plaisir de te voir 🖤 Bonne journée !</p>
             </div>
         </div>
 
+        <!-- 2. DOUBLE -->
+        <div id="v-double" class="variant">
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇵🇱</span><span>Polski</span></div>
+                <p class="language-text">Hej! Moją misją jest dać odrobinę uśmiechu wyjątkowym ludziom. Jeśli otrzymaliście tą kartkę, to chciałbym Wam powiedzieć, że jesteście przepięknymi wspaniałymi osóbkami z naprawdę piękną stylówką, które cieszą na sam widok! Osoby takie jak Wy sprawiają, że ten szary świat choć odrobinę nabiera kolorów ^^ Miło było Was widzieć 🖤 Miłego dnia!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇬🇧</span><span>English</span></div>
+                <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're truly beautiful and wonderful people with an amazing style that delights at first sight! People like you make this grey world a little more colorful ^^ It was nice to see you 🖤 Have a great day!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
+                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ви отримали цю листівку, я хотів би сказати вам, що ви неймовірно прекрасні і чудові люди з дійсно гарним стилем, який захоплює одним лише виглядом! Такі люди, як ви, роблять цей сірий світ яскравішим ^^ Було приємно вас побачити 🖤 Гарного дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇷🇺</span><span>Русский</span></div>
+                <p class="language-text">Привет! Моя миссия — подарить немного улыбки особенным людям. Если вы получили эту открытку, я хотел бы сказать вам, что вы невероятно прекрасные и замечательные люди с действительно красивым стилем, который радует одним только видом! Такие люди, как вы, делают этот мир ярче ^^ Рад был вас увидеть 🖤 Хорошего дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
+                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn ihr diese Karte erhalten habt, möchte ich euch sagen, dass ihr wunderschöne, wunderbare Personen seid, mit einem tollen Style, der beim bloßen Anblick begeistert! Menschen wie ihr machen die Welt bunter ^^ Schön, euch gesehen zu haben 🖤 Schönen Tag!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇨🇿</span><span>Čeština</span></div>
+                <p class="language-text">Ahoj! Mojí misí je přinést trochu úsměvu výjimečným lidem. Pokud jste dostali tuto kartičku, chtěl bych vám říct, že jste překrásní, úžasní lidé s opravdu krásným stylem, který těší už na samotný pohled! Lidé jako vy dělají tento svět barevnější ^^ Rádi jsme vás viděli 🖤 Hezký den!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇸🇰</span><span>Slovenčina</span></div>
+                <p class="language-text">Ahoj! Mojou misiou je priniesť trochu úsmevu výnimočným ľuďom. Ak ste dostali túto kartičku, chcel by som vám povedať, že ste prekrásni, úžasní ľudia s naozaj krásnym štýlom, ktorý teší už na samotný pohľad! Ľudia ako vy robia svet farebnejším ^^ Radi sme vás videli 🖤 Pekný deň!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇮🇹</span><span>Italiano</span></div>
+                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se avete ricevuto questo messaggio, voglio dirvi che siete delle persone davvero meravigliose, con uno stile fantastico che trasmette gioia già a prima vista! Persone come voi rendono questo mondo grigio un po' più colorato ^^ È stato bello vedervi 🖤 Buona giornata!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇪🇸</span><span>Español</span></div>
+                <p class="language-text">¡Hola! Mi misión es dar un poco de sonrisa a personas excepcionales. Si habéis recibido esta tarjeta, me gustaría deciros que sois unas personas hermosas y maravillosas con un estilo realmente bello que alegra la vista nada más verlo. ¡Personas como vosotras hacéis el mundo más colorido! 🖤 ¡Buen día!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
+                <p class="language-text">Salut ! Ma mission est d'apporter un peu de sourire à des personnes exceptionnelles. Si vous avez reçu cette carte, j'aimerais vous dire que vous êtes des personnes magnifiques et merveilleuses avec un style vraiment beau qui ravit au premier regard ! Les gens comme vous rendent ce monde gris plus coloré ^^ C'était un plaisir de vous voir 🖤 Bonne journée !</p>
+            </div>
+        </div>
 
-
-        <!-- GOTH -->
+        <!-- 3. GOTH -->
         <div id="v-goth" class="variant">
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇵🇱</span><span>Polski</span></div>
@@ -185,35 +141,80 @@
                 <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're beautiful like a black rose growing among the forgotten graves of an old forest 🖤 And you have a wonderful style that delights at first sight! People like you make this grey world more beautiful ^^ It was nice to see you 🖤 Have a great day!</p>
             </div>
             <div class="language-section">
-                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
-                <p class="language-text">Salut ! Ma mission est d’apporter un peu de sourire à des personnes extraordinaires. Si tu as reçu* ce message, je voudrais te dire que tu es magnifique* comme une rose noire poussant parmi les tombes oubliées d'une vieille forêt 🖤 Et tu as un style merveilleux ! C’était un plaisir de te voir 🖤 Bonne journée !</p>
+                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
+                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ти отримав* цю листівку, я хотів би сказати тобі, що ти прекрасн* ніби чорна троянда, що росте серед забутих могил старого лісу 🖤 І у тебе чудовий стиль, який захоплює одним лише виглядом! Такі люди, як ти, роблять цей сірий світ прекраснішим ^^ Було приємно тебе побачити 🖤 Гарного дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇷🇺</span><span>Русский</span></div>
+                <p class="language-text">Привет! Моя миссия — подарить немного улыбки особенным людям. Если ты получил* эту открытку, я хотел бы сказать тебе, что ты прекрас*н словно черная роза, растущая среди забытых могил старого леса 🖤 И у тебя чудесный стиль, который восхищает одним только видом! Такие люди, как ты, делают этот серый мир прекраснее ^^ Рад был тебя увидеть 🖤 Хорошего дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
+                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn du diese Karte erhalten hast, möchte ich dir sagen, dass du so schön wie eine schwarze Rose bist, die zwischen den vergessenen Gräbern eines alten Waldes wächst 🖤 Und du hast einen wunderbaren Stil, der schon beim bloßen Anblick begeistert! Menschen wie du machen diese Welt schöner ^^ Es war schön, dich zu sehen 🖤 Hab einen schönen Tag!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇨🇿</span><span>Čeština</span></div>
+                <p class="language-text">Ahoj! Mojí misí je přinést trochu úsměvu výjimečným lidem. Pokud jsi dostal* tuto kartičku, chtěl bych ti říct, že jsi krásn* jako černá růže rostoucí mezi zapomenutými hroby starého lesa 🖤 A máš úžasný styl, který nadchne už na samotný pohled! Lidé jako ty dělají tento šedý svět krásnějším ^^ Rád jsem tě viděl 🖤 Hezký den!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇸🇰</span><span>Slovenčina</span></div>
+                <p class="language-text">Ahoj! Mojou misiou je priniesť trochu úsmevu výnimočným ľuďom. Ak si dostal* túto kartičku, chcel by som ti povedať, že si krásn* ako čierna ruža rastúca medzi zabudnutými hrobmi starého lesa 🖤 A máš úžasný štýl, ktorý nadchne už na samotný pohľad! Ľudia ako ty robia tento sivý svet krajším ^^ Rád som ťa videl 🖤 Pekný deň!</p>
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇮🇹</span><span>Italiano</span></div>
-                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se hai ricevuto questo messaggio, voglio dirti che sei bell* come una rosa nera che cresce tra le tombe dimenticate di una vecchia foresta 🖤 E hai uno stile meraviglioso! È stato bello vederti 🖤 Buona giornata!</p>
+                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se hai ricevuto questo messaggio, voglio dirti che sei bell* come una rosa nera che cresce tra le tombe dimenticate di una vecchia foresta 🖤 E hai uno stile meraviglioso che incanta a prima vista! Persone come te rendono questo mondo grigio più bello ^^ È stato bello vederti 🖤 Buona giornata!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇪🇸</span><span>Español</span></div>
+                <p class="language-text">¡Hola! Mi misión es dar un poco de sonrisa a personas excepcionales. Si has recibido esta tarjeta, me gustaría decirte que eres tan bell* como una rosa negra que crece entre las tumbas olvidadas de un bosque antiguo 🖤 ¡Y tienes un estilo maravilloso que encanta con solo verlo! Personas como tú hacen que este mundo gris sea más bello ^^ ¡Fue un gusto verte! 🖤 ¡Buen día!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
+                <p class="language-text">Salut ! Ma mission est d'apporter un peu de sourire à des personnes extraordinaires. Si tu as reçu cette carte, j'aimerais te dire que tu es magnifique comme une rose noire poussant parmi les tombes oubliées d'une vieille forêt 🖤 Et tu as un style merveilleux qui ravit au premier regard ! Les gens comme toi rendent ce monde gris plus beau ^^ C'était un plaisir de te voir 🖤 Bonne journée !</p>
             </div>
         </div>
 
-
-
-
-        <!-- DOUBLE GOTH -->
+        <!-- 4. DOUBLE GOTH -->
         <div id="v-double_goth" class="variant">
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇵🇱</span><span>Polski</span></div>
-                <p class="language-text">Hej! Moją misją jest dać odrobinę uśmiechu wyjątkowym ludziom. Jeśli otrzyma**ście tą kartkę, to chciałbym Wam powiedzieć, że jesteście piękn* niczym czarne róże rosnące wśród zapomnianych grobów starego lasu 🖤 I macie cudny styl, który zachwyca na sam widok! Osoby takie jak Wy sprawiają, że ten szary świat jest piękniejszy ^^ Miło było Was widzieć 🖤 Miłego dnia!</p>
+                <p class="language-text">Hej! Moją misją jest dać odrobinę uśmiechu wyjątkowym ludziom. Jeśli otrzymaliście tą kartkę, to chciałbym Wam powiedzieć, że jesteście piękn* niczym czarne róże rosnące wśród zapomnianych grobów starego lasu 🖤 I macie cudny styl, który zachwyca na sam widok! Osoby takie jak Wy sprawiają, że ten szary świat jest piękniejszy ^^ Miło było Was widzieć 🖤 Miłego dnia!</p>
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇬🇧</span><span>English</span></div>
                 <p class="language-text">Hey! My mission is to bring a little smile to extraordinary people. If you received this note, I'd like to tell you that you're beautiful like black roses growing among the forgotten graves of an old forest 🖤 And you have a wonderful style that delights at first sight! People like you make this grey world more beautiful ^^ It was nice to see you 🖤 Have a great day!</p>
             </div>
             <div class="language-section">
-                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
-                <p class="language-text">Salut ! Ma mission est d’apporter un peu de sourire à des personnes extraordinaires. Si vous avez reçu ce message, je voudrais vous dire que vous êtes magnifiques comme des roses noires poussant parmi les tombes oubliées 🖤 Et vous avez un style merveilleux ! C’était un plaisir de vous voir 🖤 Bonne journée !</p>
+                <div class="language-header"><span class="flag">🇺🇦</span><span>Українська</span></div>
+                <p class="language-text">Привіт! Моя місія — подарувати трохи усмішки особливим людям. Якщо ви отримали цю листівку, я хотів би сказати вам, що ви прекрасні ніби чорні троянди, що ростуть серед забутих могил старого лісу 🖤 І у вас чудовий стиль, який захоплює одним лише виглядом! Такі люди, як ви, роблять цей сірий світ прекраснішим ^^ Було приємно вас побачити 🖤 Гарного дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇷🇺</span><span>Русский</span></div>
+                <p class="language-text">Привет! Моя миссия — подарить немного улыбки особенным людям. Если вы получили эту открытку, я хотел бы сказать вам, что вы прекрасны словно черные розы, растущие среди забытых могил старого леса 🖤 И у вас чудесный стиль, который восхищает одним только видом! Такие люди, как вы, делают этот серый мир прекраснее ^^ Рад был вас увидеть 🖤 Хорошего дня!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇩🇪</span><span>Deutsch</span></div>
+                <p class="language-text">Hallo! Meine Mission ist es, besonderen Menschen ein Lächeln zu schenken. Wenn ihr diese Karte erhalten habt, möchte ich euch sagen, dass ihr so schön wie schwarze Rosen seid, die zwischen den vergessenen Gräbern eines alten Waldes wachsen 🖤 Und ihr habt einen wunderbaren Stil, der schon beim bloßen Anblick begeistert! Menschen wie ihr machen die Welt schöner ^^ Es war schön, euch zu sehen 🖤 Habt einen schönen Tag!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇨🇿</span><span>Čeština</span></div>
+                <p class="language-text">Ahoj! Mojí misí je přinést trochu úsměvu výjimečným lidem. Pokud jste dostali tuto kartičku, chtěl bych vám říct, že jste krásní jako černé růže rostoucí mezi zapomenutými hroby starého lesa 🖤 A máte úžasný styl, který nadchne už na samotný pohled! Lidé jako vy dělají tento svět krásnějším ^^ Rádi jsme vás viděli 🖤 Hezký den!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇸🇰</span><span>Slovenčina</span></div>
+                <p class="language-text">Ahoj! Mojou misiou je priniesť trochu úsmevu výnimočným ľuďom. Ak ste dostali túto kartičku, chcel by som vám povedať, že ste krásni ako čierne ruže rastúce medzi zabudnutými hrobmi starého lesa 🖤 A máte úžasný štýl, ktorý nadchne už na samotný pohľad! Ľudia ako vy robia svet krajším ^^ Radi sme vás videli 🖤 Pekný deň!</p>
             </div>
             <div class="language-section">
                 <div class="language-header"><span class="flag">🇮🇹</span><span>Italiano</span></div>
-                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se avete ricevuto questo messaggio, voglio dirvi che siete bell* come rose nere che crescono tra le tombe dimenticate 🖤 E avete uno stile meraviglioso! È stato bello vedervi 🖤 Buona giornata!</p>
+                <p class="language-text">Ciao! La mia missione è portare un sorriso a persone speciali. Se avete ricevuto questo messaggio, siete bell* come rose nere che crescono tra le tombe dimenticate di una vecchia foresta 🖤 E avete uno stile meraviglioso che incanta a prima vista! Persone come voi rendono questo mondo grigio più bello ^^ È stato bello vedervi 🖤 Buona giornata!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇪🇸</span><span>Español</span></div>
+                <p class="language-text">¡Hola! Mi misión es dar un poco de sonrisa a personas excepcionales. Si habéis recibido esta tarjeta, sois tan bell*s como rosas negras que crecen entre las tumbas olvidadas de un bosque antiguo 🖤 ¡Y tenéis un estilo maravilloso que encanta con solo verlo! Personas como vosotras hacéis que este mundo sea más bello ^^ ¡Fue un gusto veros! 🖤 ¡Buen día!</p>
+            </div>
+            <div class="language-section">
+                <div class="language-header"><span class="flag">🇫🇷</span><span>Français</span></div>
+                <p class="language-text">Salut ! Ma mission est d'apporter un peu de sourire à des personnes extraordinaires. Si vous avez reçu cette carte, vous êtes magnifiques comme des roses noires poussant parmi les tombes oubliées d'une vieille forêt 🖤 Et vous avez un style merveilleux qui ravit au premier regard ! Les gens comme vous rendent ce monde gris plus beau ^^ C'était un plaisir de vous voir 🖤 Bonne journée !</p>
             </div>
         </div>
     </div>
